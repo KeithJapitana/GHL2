@@ -1,4 +1,4 @@
-
+<script>
 
   function reveal_top() {
   var reveals_top = document.querySelectorAll(".reveal_top");
@@ -57,7 +57,7 @@
   if (elementTop < windowHeight - elementVisible) {
   reveals_right[i].classList.add("active");
 } else {
-  reveals_right[i].classList.remove("active");
+
 }
 }
 }
@@ -67,5 +67,5 @@
   window.addEventListener("scroll", reveal_bot);
   window.addEventListener("scroll", reveal_left);
   window.addEventListener("scroll", reveal_right);
-
+</script>
 
